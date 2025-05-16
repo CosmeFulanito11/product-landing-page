@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pixel Arcade</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <img id="header-img" src="https://via.placeholder.com/100x40?text=Pixel+Logo" alt="Logo Pixel Arcade" />
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li><a class="nav-link" href="#consolas">Consolas</a></li>
+                <li><a class="nav-link" href="#juegos">Juegos</a></li>
+                <li><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Pixel Arcade</h1>
+        <p>Revive la magia de los videojuegos retro</p>
+        <a href="#consolas"><button>Explorar</button></a>
+    </section>
+
+    <section id="consolas">
+        <h2>Consolas Retro</h2>
+        <div class="features">
+            <div>
+                <h3>Super Nintendo</h3>
+                <p>Los mejores clásicos en 16 bits</p>
+            </div>
+            <div>
+                <h3>Game Boy</h3>
+                <p>La aventura en la palma de tu mano</p>
+            </div>
+            <div>
+                <h3>Sega Genesis</h3>
+                <p>Velocidad y poder con Sonic</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="juegos">
+        <h2>Catálogo de Juegos</h2>
+        <ul style="list-style: none; margin-top: 1rem;">
+            <li>The Legend of Zelda</li>
+            <li>Metroid</li>
+            <li>Donkey Kong Country</li>
+            <li>Pokémon Red</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Tráiler Retro</h2>
+        <iframe id="video" src="https://www.youtube.com/embed/KsMKOx6fumc" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="contacto">
+        <h2>Suscríbete</h2>
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
+            <input id="email" name="email" type="email" placeholder="Ingresa tu correo" required />
+            <input id="submit" type="submit" value="Enviar" />
+        </form>
+    </section>
+
+</body>
+
+</html>
